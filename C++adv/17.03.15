@@ -1,0 +1,55 @@
+17.03.15 C++ adv
+C++ 11 / 14 기본 문법은 독학.
+C++ adv에서는 책을 통해서 배우기 힘든 고급 문법과 활용을 중심.
+
+평가의 중심은 과제.
+	-> 과제를 외부에 공유하면 가산점. (블로그)
+	
+질문을 자주하자.
+
+The C++ Programming Language by Bjarne Stroustrup
+	-> C++ adv를 수강하고 한 번 보자.
+
+NHN NEXT 도서관 책
+C++ Concurrency : 원서	
+메모리 덤프 분석과 활용
+Window Debug -> 둘 중에 하나는 제본해놓기
+NETWORK Programming WINDOWS -> 제본해놓기
+CODE Complete -> 소장해놓기
+Game programming Gems
+OS 구조와 원리
+Game coding complete
+게임 엔진 아키텍쳐
+
+기술 면접시 잘 나오는 질문들.
+
+블로그, 스터디 모임, 강연등의 기회를 사용하자.
+
+
+// 쉬운 기능들
+range based 
+참조자로 auto &i로 해야됨. 
+auto const &i 이런식으로.
+
+typedef class 스코프드 이뉴머레이션
+
+default delete로 명시적으로
+emplace_back 이 push_back보다 빠르다 (복사, 파괴비용이 없음)
+constexpr 값이 이미 정해진 함수의 경우 컴파일 타임에 미리 계산해서 들어가게
+
+// 람다
+for문 보다 성능이 더 좋음 (inline 함수화 됨)
+
+// 랜덤
+난수 생성
+#include <random>
+std::mt19937 mtRand;
+난수를 알면 좋다.
+
+// 쓰레드
+파일 입출력, cout등은 스레드 세이프 한 것들이 있다.
+그런 걸 잘봐야지
+
+std::call_once를 사용하면 한 번만 코드 실행을 한다.
+
+// 31일 이후까지 e-book은 읽어오자.
